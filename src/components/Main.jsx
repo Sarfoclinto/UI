@@ -10,8 +10,8 @@ function Main() {
 
         <div className="area">
           <form
-            onSubmit={(e) => {
-              e.preventDefault();
+            onSubmit={(event) => {
+              event.preventDefault();
             }}
           >
             <div className="one">
